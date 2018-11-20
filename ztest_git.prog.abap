@@ -5,13 +5,5 @@
 *&---------------------------------------------------------------------*
 REPORT ZTEST_GIT.
 
-if 1 = 2.
-
-endif.
-
-" Dummy comment
-case abap_true.
-  when abap_false.
-
-  when abap_true.
-endcase.
+" Dette er en kommentar
+write: 'Dette er en test fra annet system'.
